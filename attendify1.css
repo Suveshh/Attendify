@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@100; 200;300;400;500; 600;700;800;900&display=swap');
+
+*
+
+{
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+}
+
+body {
+   
+    display: flex;
+    flex-direction: column;
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+h1 {
+
+font-size: 2.5rem; font-weight: 700; color: rgb(8, 8, 21);
+
+}
+
+span {
+
+font-size: .9rem;
+
+color: #757373;
+}
+
+nav{position: fixed;
+    width: 100%;
+    mix-blend-mode: multiply;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+    
+}
+
+nav img{
+    width: 250px;
+    height: 50px;
+    mix-blend-mode: multiply;
+    cursor: pointer;
+    padding-top: 3px;
+    
+}
+
+
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+
+}
+
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    
+}
+
+
+nav .navigation ul li a{
+    text-decoration: none;
+color: rgb(0, 0, 0);
+font-size: 16px;
+font-weight: 500;
+transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover{
+    color:#030bfa;
+    
+}
+
+
+#home{
+    background-image:linear-gradient(rgba(178, 177, 186, 0.117),rgba(5,4,46,0.7)) ,url("ABCD.jpg");
+
+    display: flex;width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   text-align: start;    
+   padding-top: 200px;
+   padding-left: 50px;
+}
+
+#home h2{
+    color:whitesmoke;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#home p{
+    width: 50%;
+color:darkred;
+   
+    font-size: 0.9rem;
+    line-height: 25px;
+
+}
+
+#home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 10px 30px;
+    background-color: cornsilk;
+    font-weight: 600;
+    border-radius: 5px
+    
+    
+}
+
+.btn{
+  
+    padding-top: 25px;
+}
+
+
+#home a.blue:hover{
+    color: #fff;
+    background: rgb(21, 21,100);
+}
+
+
+#home a.blue{
+    background: #fff;
+    color: rgb(21, 21,100);
+    transition: 0.3s ease;
+}
+
+.feature-section {
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+    color: #fff;
+    padding: 50px;
+}
+
+.feature-image {
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(359deg, #0000006e, #000000b0), url(books.png);
+    opacity: 0.99;
+}
+.next{
+    display: flex;
+    
+
+}
+.man{
+    height: 400px;
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(man.png);
+    padding-left: 20pxs;
+}
+.writing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding-left: 57px;
+}
+
+
+.feature-content {
+    max-width: 50%; /* Adjust the width of the content area */
+}
+
+.feature-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.feature-content p {
+    font-size: 1.2em;
+}
+
+.feature-image img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    height: auto; /* Maintain image aspect ratio */
+}
+
+
+
+    
